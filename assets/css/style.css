@@ -42,3 +42,26 @@ button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visib
 .reading-indicator{color:var(--faint);font-size:10px;letter-spacing:.12em}
 .loading{padding:52px 28px;border:1px solid var(--edge);border-radius:14px;color:var(--muted);margin-top:26px}
 @media(max-width:690px){.quest-items{max-height:290px;overflow:auto;display:block;scrollbar-width:thin}.q-index-place{display:block}.quest-index{max-height:390px}.story{font-size:13.5px;line-height:2}.quest-layout{gap:13px}}
+
+/* Keep the archive panel visible below the sticky topbar after page navigation. */
+#panel{scroll-margin-top:86px}
+@media(max-width:690px){#panel{scroll-margin-top:69px}}
+
+/* Character dossiers: per-act narrative without collapsing historical nuance. */
+.person-section-label{letter-spacing:.07em!important;text-transform:uppercase}
+.person-tip{color:#92a7ac!important;font-size:11px!important;line-height:1.65!important;margin-bottom:14px!important}
+.person-act-nav{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 17px;position:sticky;top:70px;z-index:1;background:#142029;padding:8px 0}
+.person-act-tab{padding:9px 13px;border:1px solid #41515a;border-radius:8px;color:#bbcbce;background:#1a2933;font-weight:700;font-size:12px}
+.person-act-tab.active{background:#3c3324;border-color:#ba9a5c;color:#f2d99f}
+.person-act-section{padding:17px 18px 14px;border:1px solid #42515a;border-radius:11px;background:#111c24}
+.person-act-section.hidden{display:none}
+.person-act-section h4,.person-life h4{font-size:16px;line-height:1.5;color:#e9dcc1;margin:0 0 15px;letter-spacing:-.02em}
+.person-act-section p{font-size:13px;line-height:1.95;margin:0 0 13px;color:#d5dddc}
+.person-act-meta{display:flex;gap:11px;align-items:center;flex-wrap:wrap;color:#91a9b4;font-size:11px;margin-bottom:9px}
+.person-act-meta span:first-child{color:#d9b878;font-weight:750}
+.person-life{padding:9px 0 12px}.person-life+.person-life{border-top:1px solid #46525a60;padding-top:14px}
+.person-record{border-top:1px solid #43505a;margin-top:16px;padding-top:13px;display:flex;flex-direction:column;gap:5px;font-size:11px;line-height:1.6;color:#a5b5b7}
+.person-record b{color:#c9ab70;font-weight:650}.person-record a{color:#dabb7f;text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
+.lore-excerpt{margin:13px 0 18px;border-left:2px solid #ae8b52;padding:6px 0 7px 18px;background:linear-gradient(90deg,#42321e30,transparent)}
+.lore-excerpt blockquote{margin:0 0 6px;font-size:14px;line-height:1.6;color:#edd5a1;font-style:italic}.lore-excerpt figcaption a{font-size:11px;color:#c0ae8b;text-decoration:underline}.lore-excerpt p{margin:9px 0 0;font-size:12px;line-height:1.8;color:#9eb0b4}
+@media(max-width:690px){.person-act-nav{top:67px}.person-act-section{padding:15px}.person-act-tab{padding:8px 11px}}
