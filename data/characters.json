@@ -4,7 +4,8 @@
     "name": "타클레이",
     "en": "Tarkleigh",
     "acts": [
-      1
+      1,
+      6
     ],
     "group": "주민",
     "era": "현대",
@@ -19,6 +20,10 @@
       [
         "lioneye",
         "옛 초소가 그의 이름을 따름"
+      ],
+      [
+        "tsoagoth",
+        "네사를 납치한 신에 맞서 구조를 요청함"
       ]
     ],
     "items": [],
@@ -34,6 +39,20 @@
           "그가 부탁하는 일들은 거대한 음모와 관계없이 매우 현실적이다. 치료약이 부족하고, 동굴에는 거대한 갑각류 생물이 있으며, 갯벌에는 시체를 되살리는 강령술사가 나타난다. 타클레이의 냉소적인 말투에는 이런 사정을 오래 견딘 사람의 현실 감각이 담겨 있다."
         ]
       }
+    ],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "네사를 찾아 달라는 부탁과 포기할 수 없는 희망",
+        "status": "거점 NPC",
+        "paragraphs": [
+          "타클레이는 네사가 밤에 갯벌로 뛰어가는 것을 보았지만 끝내 붙잡지 못했다. 그는 사라진 발자국을 추적해도 흔적을 찾지 못했고, 어떤 위험을 무릅쓰고라도 그녀를 찾아 달라고 간청한다.",
+          "그는 해안의 새 요새와 수용소의 길, 숲의 기생충을 조사해 위험을 알려 준다. 투코하마가 죽었다는 말에는 정말로 신을 죽일 수 있느냐고 놀라고, 리슬라사가 신임을 알게 되자 지친 분노를 드러낸다.",
+          "염수왕이 죽은 뒤에도 네사는 초소로 돌아오지 않는다. 타클레이는 다시 볼 수 있을 것이라는 희망을 접으면서도 머베일과 같은 비극이 반복된 것은 아니라는 데 작은 위안을 찾는다."
+        ],
+        "record": "「전쟁의 아버지」·「꼭두각시 여사제」·「염수왕」 타클레이 대사",
+        "source": "https://www.poewiki.net/wiki/The_Brine_King_%28quest%29"
+      }
     ]
   },
   {
@@ -41,7 +60,8 @@
     "name": "네사",
     "en": "Nessa",
     "acts": [
-      1
+      1,
+      6
     ],
     "group": "주민",
     "era": "현대",
@@ -56,6 +76,18 @@
       [
         "bestel",
         "약품 상자가 실린 난파선 정보"
+      ],
+      [
+        "tsoagoth",
+        "그에게 강제로 끌려가 신부가 될 것을 강요받음"
+      ],
+      [
+        "weylam",
+        "검은 깃발의 사용법을 알려 그의 배를 소환하게 함"
+      ],
+      [
+        "merveil",
+        "서로 다른 저주로 바다 생물처럼 변한 인물"
       ]
     ],
     "items": [],
@@ -71,6 +103,20 @@
           "같은 초소에 사는 타클레이가 사냥과 방어를 맡고 있다면 네사는 상처 입은 사람들을 돌본다. 극도로 잔혹한 해안에서 주민들이 삶을 이어갈 수 있게 만드는 두 종류의 일이 나란히 존재한다."
         ]
       }
+    ],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "염수왕이 빼앗은 자유와 세 차례의 구조 요청",
+        "status": "주요 등장 NPC",
+        "paragraphs": [
+          "ACT 1의 네사는 난파 뒤 초소의 주민을 간호하던 치료자였다. ACT 6에서 염수왕 토소고스에게 납치당하고 인어와 같은 모습으로 변한다. 갯벌에서 누군가 자기를 구해 달라고 호소하고, 죄수의 문에서는 신이 레이클라스트 전체를 노리고 있다고 경고한다.",
+          "분노의 암굴에서는 검은 깃발을 불태워 웨일럼의 배를 부르는 방법을 알려 준다. 반면 염수왕의 암초에서는 신부처럼 말하며 방문자를 왕의 혼례에 끌어들인다. 앞선 저항의 말과 뒤의 복종하는 말이 다르다는 사실이 신의 강요를 읽을 근거다.",
+          "퀘스트 완료 문구는 네사를 구출했다고 표현하지만 그녀는 초소로 돌아오지 않는다. 타클레이와 베스텔은 그녀를 다시 만날 수 없으리라고 받아들인다. 실제 이후 행방은 확인된 장면의 범위 안에서만 다룬다."
+        ],
+        "record": "「염수왕」 갯벌·죄수의 문·분노의 암굴·암초에서의 네사 대사",
+        "source": "https://www.poewiki.net/wiki/Nessa"
+      }
     ]
   },
   {
@@ -78,7 +124,8 @@
     "name": "베스텔",
     "en": "Bestel",
     "acts": [
-      1
+      1,
+      6
     ],
     "group": "주민",
     "era": "현대",
@@ -89,6 +136,10 @@
       [
         "fairgraves",
         "오랜 전설의 선장"
+      ],
+      [
+        "nessa",
+        "실종을 애도하고 바다에서의 안녕을 바람"
       ]
     ],
     "items": [],
@@ -103,6 +154,20 @@
           "베스텔은 자신이 선장이었던 메리 걸이 난파한 뒤 라이온아이 초소에 머무르게 되었다. 선원들의 이야기와 바다의 전설을 많이 알고 있으며, 무서운 사건도 시와 농담으로 전달한다.",
           "그는 페어그레이브즈 같은 유명한 탐험가를 들어 본 적이 있지만 그 사람이 실제로 어떤 행동을 했는지까지 알지는 못한다. 이 차이는 선원의 전설과 실제 인물의 모습을 구분하게 만든다."
         ]
+      }
+    ],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "절망을 누그러뜨리려는 연극과 마지막 배웅",
+        "status": "거점 NPC",
+        "paragraphs": [
+          "베스텔은 초소가 너무 어두워졌다며 난파선 메리 걸에 두고 온 연극 원고를 찾아 달라고 부탁한다. 「세드릭과 풍만한 낯선 여인」의 원고를 읽고는 자신이 기억한 만큼 웃기지 않다며 머쓱해한다. 연극을 실제 공연했는지는 알려지지 않는다.",
+          "아버라스가 사람의 영혼을 먹는 신이라고 경고하고, 그가 죽으면 풍자적인 운문으로 축하한다. 같은 시인은 염수왕의 패배를 농담하다가 네사가 돌아오지 않는다는 생각에 슬픔을 드러낸다.",
+          "베스텔은 네사를 잊어버린 것이 아니라, 그녀가 바다에서 조금이라도 행복을 얻기를 빈다. 타클레이와는 다른 방식으로 상실을 견딘다."
+        ],
+        "record": "「베스텔의 서사시」·「갈라진 자」·「염수왕」 베스텔 대사",
+        "source": "https://www.poewiki.net/wiki/Bestel%27s_Epic"
       }
     ]
   },
@@ -188,7 +253,16 @@
         "record": "「빅타리오의 비밀」의 백금 흉상"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Lioneye's Remorse",
+        "heading": "버렸던 방패와 패배의 원인",
+        "body": "방패의 플레이버 텍스트는 라이온아이의 오만과 최후를 연결한다. 카옴의 퇴각을 추격하려고 방패를 벗어던진 판단은 하이리가 이끈 여성 궁수들의 매복 앞에서 치명적인 실수가 됐다. 이 방패는 단순한 장비가 아니라 전투의 전환점을 설명하는 유물이다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Lioneye's_Remorse"
+      }
+    ]
   },
   {
     "id": "kaom",
@@ -197,7 +271,8 @@
     "acts": [
       1,
       3,
-      4
+      4,
+      6
     ],
     "group": "역사",
     "era": "제국 말기~악몽",
@@ -216,11 +291,18 @@
       [
         "beast",
         "거짓 계시로 타락"
+      ],
+      [
+        "tukohama",
+        "오백 전사 희생을 그의 이름으로 기록한 카루이 왕"
       ]
     ],
     "items": [
       "Kaom's Heart",
-      "Kaom's Roots"
+      "Kaom's Roots",
+      "Kaom's Primacy",
+      "Blood of the Karui",
+      "Kaom's Sign"
     ],
     "trivia": [
       "아이템 ‘카옴의 심장’처럼 그의 육체와 정신의 강인함을 암시하는 명명이 남아 있다."
@@ -261,6 +343,40 @@
         ],
         "record": "카옴의 꿈과 요새의 「풍화된 조각」",
         "source": "https://www.poewiki.net/wiki/Kaom"
+      },
+      {
+        "act": 6,
+        "title": "카옴이 믿었던 신의 현재 모습",
+        "status": "역사적 연결",
+        "paragraphs": [
+          "ACT 4에서 카옴은 낡은 조각에 투코하마의 이름을 남기고 자신의 전사 오백 명을 희생했다고 기록한다. ACT 6에서는 그 전쟁의 아버지가 실제 신으로 나타나 해안의 길을 막는다.",
+          "카옴이 믿은 전쟁의 수호신과 지금 다른 사람을 위협하는 신은 같은 이름의 존재이지만, 카옴의 모든 선택이 직접적인 신의 명령 때문이었다고 단정할 근거는 부족하다."
+        ],
+        "record": "ACT 4 카옴의 낡은 조각·ACT 6 씬의 투코하마 대화",
+        "source": "https://www.poewiki.net/wiki/Karui_Gods"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Kaom's Primacy",
+        "heading": "부족을 하나로 묶은 방식",
+        "body": "아이템 설명에는 카옴이 약한 부족장들을 차례로 죽였고, 나머지 부족들이 그의 편으로 돌아섰다는 이야기가 남아 있다. 카옴의 통일은 모두의 자발적인 지지에서만 나온 것이 아니라 압도적인 무력과 공포 위에서 이루어졌음을 알려준다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Kaom's_Primacy"
+      },
+      {
+        "item": "Blood of the Karui",
+        "heading": "왕을 위해 피 흘린 사람들",
+        "body": "플레이버 텍스트는 카옴의 조언자 라비앙가(Lavianga)의 말이다. 카옴이 백성을 위해 싸우고 피를 흘렸다는 칭송 다음에, 백성 또한 왕을 위해 피를 바쳤다는 사실이 이어진다. 카옴의 영웅담과 그를 위해 희생된 사람들의 이야기를 함께 읽게 해 주는 기록이다.",
+        "relation": "측근의 평가",
+        "source": "https://www.poewiki.net/wiki/Blood_of_the_Karui"
+      },
+      {
+        "item": "Kaom's Sign",
+        "heading": "바다를 건넌 카루이의 왕",
+        "body": "아이템은 카옴이 카루이를 이끌고 바다를 건너 레이클라스트로 향한 일을 기념한다. 라이온아이 초소를 차지하기 전, 카옴의 원정 자체가 카루이의 역사적인 집단 이동이었다는 사실을 짧게 남긴다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Kaom's_Sign"
       }
     ]
   },
@@ -289,7 +405,9 @@
     ],
     "items": [
       "Hyrri's Ire",
-      "Hyrri's Demise"
+      "Hyrri's Demise",
+      "Hyrri's Bite",
+      "Silverbranch"
     ],
     "trivia": [],
     "affiliation": "카루이 · 궁수",
@@ -314,7 +432,23 @@
         "record": "카옴의 「풍화된 조각」"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Hyrri's Bite",
+        "heading": "여성 궁수가 깨뜨린 관습",
+        "body": "플레이버 텍스트는 카루이 여성의 자리가 원래 전장이 아닌 가정에 있었다고 설명한 뒤, 하이리가 이를 바꾸었다고 명시한다. 라이온아이의 패배는 전술적인 승리인 동시에 카루이 내부의 성별 관습을 뒤흔든 사건이었다.",
+        "relation": "인물의 행적을 명시",
+        "source": "https://www.poewiki.net/wiki/Hyrri's_Bite"
+      },
+      {
+        "item": "Silverbranch",
+        "heading": "이름 없는 활에 남은 하이리의 목소리",
+        "body": "아이템 이름에는 하이리가 등장하지 않지만 플레이버 텍스트는 그녀의 발언으로 서명되어 있다. 자연은 제 몫을 스스로 지킨다는 취지의 짧은 말은 카루이 궁수로서의 관점과 연결된다. 하이리의 이름이 없는 고유 아이템도 인물 기록이 될 수 있는 사례다.",
+        "relation": "플레이버 텍스트에 발언자 명시",
+        "source": "https://www.poewiki.net/wiki/Silverbranch"
+      }
+    ]
   },
   {
     "id": "brutus",
@@ -322,7 +456,8 @@
     "en": "Brutus",
     "acts": [
       1,
-      3
+      3,
+      6
     ],
     "group": "적대자",
     "era": "제국 말기",
@@ -363,6 +498,26 @@
         "paragraphs": [
           "파이어티가 루나리스 사원에서 만든 콜은 브루투스를 떠올리게 하는 거대한 실험체다. 두 사람의 실험 시기와 연구자는 다르지만, 고대 제국의 기술을 현대에 재현하려는 위험을 읽을 수 있다."
         ]
+      },
+      {
+        "act": 6,
+        "title": "재조립되어 다시 샤브론의 무기가 되다",
+        "status": "보스",
+        "paragraphs": [
+          "액시옴 수용소의 탑에서 샤브론은 ‘재조립된 브루투스’를 불러내고 최종 전투에서 그의 육체에 빙의한다. 이전에는 자기를 개조한 샤브론을 죽인 존재였지만, 이번에는 그녀가 조종하는 무기로 나타난다.",
+          "브루투스가 자발적으로 샤브론과 화해했다는 대사나 둘이 서로 용서했다는 기록은 없다. 이것은 귀환한 연구자가 자신의 실험체를 또다시 이용한다는 시각에서 읽는다."
+        ],
+        "record": "샤브론의 탑 「재조립된 브루투스」 보스 전투",
+        "source": "https://www.poewiki.net/wiki/Shavronne_the_Returned"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Brutus' Lead Sprinkler",
+        "heading": "간수장이 직접 남긴 고문관의 언어",
+        "body": "아이템 설명에서 브루투스는 자백을 받아내려면 약간의 ‘액체 격려’가 필요하다고 잔인한 농담을 한다. 샤브론에게 개조되기 전부터 그가 죄수를 고문하던 가학적인 간수장이었음을 그의 말투를 통해 확인할 수 있다.",
+        "relation": "본인의 발언",
+        "source": "https://www.poewiki.net/wiki/Brutus'_Lead_Sprinkler"
       }
     ]
   },
@@ -373,7 +528,8 @@
     "acts": [
       1,
       3,
-      4
+      4,
+      6
     ],
     "group": "연구자",
     "era": "제국 말기~악몽",
@@ -388,11 +544,17 @@
       [
         "malachai",
         "연구 협력자"
+      ],
+      [
+        "sin",
+        "그에게 정수가 수확됨"
       ]
     ],
     "items": [
       "Shavronne's Wrappings",
-      "Shavronne's Revelation"
+      "Shavronne's Revelation",
+      "Shavronne's Pace",
+      "Shavronne's Gambit"
     ],
     "trivia": [],
     "affiliation": "영원한 제국 · 마석 연구",
@@ -428,6 +590,34 @@
         ],
         "record": "수확소의 「말라카이의 헌신」",
         "source": "https://www.poewiki.net/wiki/Shavronne_of_Umbra"
+      },
+      {
+        "act": 6,
+        "title": "탑으로 돌아온 샤브론과 재조립된 브루투스",
+        "status": "주요 보스",
+        "paragraphs": [
+          "짐승이 죽은 뒤 샤브론의 강인한 영혼은 풀려나 옛 연구 장소인 액시옴 수용소의 탑으로 돌아간다. 그곳에서 재조립된 브루투스를 다시 끌어내고 그 육체에 빙의하며 저항한다.",
+          "ACT 1에서 샤브론은 실험체 브루투스에게 살해되었다고 전해지지만 ACT 6에서는 과거의 실험을 재연하듯 그를 이용한다. 그녀의 귀환을 살아 있는 인간으로 귀가했다고 해석하지 않는다.",
+          "씬은 검은 불씨를 얻는 데 필요한 세 영혼의 첫 재료로 샤브론의 정수를 가져간다. 이어 다음 대상인 말리가로의 귀환을 설명한다."
+        ],
+        "record": "「움브라의 정수」·샤브론의 탑 전투·씬 대화",
+        "source": "https://www.poewiki.net/wiki/Shavronne_the_Returned"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Shavronne's Pace",
+        "heading": "카루이군이 진격하던 마지막 순간",
+        "body": "플레이버 텍스트는 샤브론이 밀려오는 카루이군을 막기 위한 마지막 희망인 브루투스에게 서둘러 달려갔다고 전한다. 수용소의 인체 개조가 평온한 연구실의 실험이 아니라 제국 방어선이 무너지는 전시 상황에서 추진되었음을 보여준다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Shavronne's_Pace"
+      },
+      {
+        "item": "Shavronne's Gambit",
+        "heading": "전선을 막으려던 마지막 함정",
+        "body": "플레이버 텍스트는 카루이 배가 가까워지는 동안 샤브론이 적에게 마지막 함정을 마련했다고 전한다. 이 아이템은 예전 예언 콘텐츠와 연관된 역사적 고유 아이템이며, 현재 일반 획득 가능 여부와 별개로 사건을 보완하는 기록으로 다룬다.",
+        "relation": "역사적·획득 중단 가능",
+        "source": "https://www.poewiki.net/wiki/Shavronne%27s_Gambit"
       }
     ]
   },
@@ -638,6 +828,15 @@
         ],
         "record": "「희망 한 모금」, 데칸터 스피리투스와 치투스의 자두"
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Fairgraves' Tricorne",
+        "heading": "죽음 너머까지 따라간 선장의 모자",
+        "body": "아이템 설명에는 페어그레이브즈의 모자가 먼 바다와 지하, 죽음 너머까지 그와 함께했다고 적혀 있다. 그가 항해에서 죽은 뒤에도 액트 1과 3에서 모습을 드러내는 기묘한 운명을 재치 있게 표현한 장신구다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Fairgraves'_Tricorne"
+      }
     ]
   },
   {
@@ -659,7 +858,9 @@
         "남편이자 그리워한 연인"
       ]
     ],
-    "items": [],
+    "items": [
+      "Star of Wraeclast"
+    ],
     "trivia": [
       "다레소의 개인 서사와 함께 읽으면 두 액트로 나뉜 하나의 사랑 이야기가 완성된다."
     ],
@@ -688,6 +889,15 @@
         ],
         "record": "대 투기장의 「기록판」"
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Star of Wraeclast",
+        "heading": "청혼의 말에는 머베일이라는 이름이 없다",
+        "body": "플레이버 텍스트에는 다레소가 사랑하는 사람에게 영원한 맹세를 바치며 청혼하는 말이 실려 있다. 그 인용문 자체는 상대의 이름을 머베일이라고 밝히지 않는다. 그러나 페어그레이브즈가 ‘머베일의 목걸이’ 대화에서 다레소가 바로 이 보석을 머베일에게 선물했다고 구체적으로 설명하므로 두 기록을 연결할 수 있다. 한때 사랑의 표식이었던 이 목걸이에 깃든 마석이 이후 머베일의 변이를 불렀다. 보석은 그보다 앞서 가수 칼리사 마스의 뛰어난 목소리와도 연결되므로, 선물 한 점을 통해 세 인물의 운명이 이어진다.",
+        "relation": "다른 NPC 대사와 교차 확인",
+        "source": "https://www.poewiki.net/wiki/Star_of_Wraeclast"
+      }
     ]
   },
   {
@@ -715,7 +925,10 @@
     ],
     "items": [
       "Daresso's Defiance",
-      "Daresso's Salute"
+      "Daresso's Salute",
+      "Star of Wraeclast",
+      "Combat Focus",
+      "Daresso's Courage"
     ],
     "trivia": [
       "다레소의 꿈은 실물 투기장이 아니라 초자연적 영역이다."
@@ -749,6 +962,29 @@
         "record": "하이게이트 · 페타루스·반야 「다레소」, 타수니 「다레소」",
         "source": "https://www.poewiki.net/wiki/Daresso"
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Star of Wraeclast",
+        "heading": "다레소의 직접적인 청혼 문구",
+        "body": "아이템의 플레이버 텍스트는 다레소가 ‘사랑하는 사람’에게 전한 맹세를 인용한다. 그 짧은 문구 안에는 머베일이라는 이름이 명시되어 있지 않다. 그러나 페어그레이브즈의 목걸이 설명에서 다레소가 머베일에게 레이클라스트의 별을 건넸다는 사실이 확인된다. 서로 다른 출처를 결합해 연인 관계를 확인하는 대표적인 사례다.",
+        "relation": "NPC 대사와 교차 확인",
+        "source": "https://www.poewiki.net/wiki/Star_of_Wraeclast"
+      },
+      {
+        "item": "Combat Focus",
+        "heading": "투기장 문이 열리기 직전의 마음",
+        "body": "민첩·힘 계열 Combat Focus 보석의 문구에서는 다레소가 철창 너머에서 환호하는 팬, 아내의 포옹, 곧 열릴 축하연을 떠올린다. 하지만 투기장의 문이 열리자 오직 싸움만 생각했다고 한다. 꿈속에서도 투기장을 떠나지 못하는 다레소가 왜 승부 자체에 사로잡혔는지 알 수 있는 묘사다.",
+        "relation": "동명의 고유 주얼 변형 중 특정 문구",
+        "source": "https://www.poewiki.net/wiki/Daresso%2C_King_of_Swords"
+      },
+      {
+        "item": "Daresso's Courage",
+        "heading": "승리의 뒷면에 있던 상처",
+        "body": "플레이버 텍스트는 한 대회가 끝났을 때 다레소가 피를 흘리고 떨고 있었으며, 배신적인 시도조차 챔피언의 승리를 막지 못했다고 전한다. 그의 명성은 단지 화려한 칭송이 아니라 위험하고 불공정한 싸움을 통과한 결과이기도 하다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Daresso's_Courage"
+      }
     ]
   },
   {
@@ -771,7 +1007,11 @@
         "미궁을 이용해 왕위를 차지한 인물"
       ]
     ],
-    "items": [],
+    "items": [
+      "Izaro's Turmoil",
+      "Izaro's Dilemma",
+      "Glitterdisc"
+    ],
     "trivia": [],
     "affiliation": "영원한 제국 · 황실",
     "personType": "역사 인물 · 보스",
@@ -803,7 +1043,30 @@
         "record": "전직 시험 및 「군주의 미궁」"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Izaro's Turmoil",
+        "heading": "스스로 만든 미궁에 갇힌 황제",
+        "body": "이 주얼은 이자로가 부적격한 사람을 걸러내기 위해 만든 미궁이 오히려 괴물을 권력으로 밀어 올렸고, 자신은 그 안에 갇혔다고 설명한다. 미궁에서 이긴 치투스에게 제위를 넘겼지만, 바로 그 승리자가 이자로를 배신했다는 역사를 짧게 압축한다.",
+        "relation": "과거 고유 아이템 · 드롭 중단",
+        "source": "https://www.poewiki.net/wiki/Izaro's_Turmoil"
+      },
+      {
+        "item": "Izaro's Dilemma",
+        "heading": "인간 이상의 존재로 여겼던 자기 자신",
+        "body": "플레이버 텍스트는 이자로가 스스로를 사람의 몸에 갇힌 신성한 구원자로 보았다고 전한다. 그가 미궁을 단순한 후계자 선발 기구 이상으로 여기고 있었음을 드러내며, 제도를 만든 황제의 자기인식도 설명한다.",
+        "relation": "과거 고유 아이템 · 드롭 중단",
+        "source": "https://www.poewiki.net/wiki/Izaro's_Dilemma"
+      },
+      {
+        "item": "Glitterdisc",
+        "heading": "미궁의 용암에서 탄생한 뜻밖의 발견",
+        "body": "이 방패는 이자로가 용암을 고집한 결과 예상치 못한 물질적 발견이 있었다고 설명한다. 군주의 미궁에 반복해서 등장하는 용암 함정이 단순한 게임 장치만은 아니었음을 알려주는 작은 기록이다.",
+        "relation": "미궁 시설과의 직접 연결",
+        "source": "https://www.poewiki.net/wiki/Glitterdisc"
+      }
+    ]
   },
   {
     "id": "chitus",
@@ -837,7 +1100,8 @@
       ]
     ],
     "items": [
-      "Perandus Signet"
+      "Chitus' Needle",
+      "Chitus' Apex"
     ],
     "trivia": [
       "‘페란두스’ 아이템은 가문 전체를 가리키며 치투스 개인의 소유품으로 단정할 수 없다."
@@ -865,7 +1129,23 @@
         "record": "「정화의 연대기」, 「희망 한 모금」"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Chitus' Needle",
+        "heading": "황제를 향해 짜 놓은 함정",
+        "body": "치투스 자신의 발언은 영광스러운 황제를 위해 운명의 실을 올가미처럼 엮겠다는 내용이다. 즉위 이전부터 그가 당시 황제 이자로를 배신할 뜻을 품고 있었음을 엿보게 한다. 미궁의 승리가 공정한 후계자 선출이 아니었다는 기록과 연결된다.",
+        "relation": "본인 발언",
+        "source": "https://www.poewiki.net/wiki/Chitus'_Needle"
+      },
+      {
+        "item": "Chitus' Apex",
+        "heading": "권력을 쥔 황제의 자기평가",
+        "body": "아이템 속 치투스는 힘을 유지하는 데에는 진정한 강함이 필요하며 자신의 손아귀는 날마다 더 단단해진다고 말한다. 미궁을 이용해 즉위하고 이자로를 감금한 인물이 권력을 어떻게 바라보았는지 직접 드러내는 문장이다.",
+        "relation": "본인 발언",
+        "source": "https://www.poewiki.net/wiki/Chitus'_Apex"
+      }
+    ]
   },
   {
     "id": "arteri",
@@ -1203,7 +1483,8 @@
     ],
     "items": [
       "Maligaro's Virtuosity",
-      "Maligaro's Lens"
+      "Maligaro's Lens",
+      "Maligaro's Cruelty"
     ],
     "trivia": [],
     "affiliation": "영원한 제국 · 마석 연구",
@@ -1240,6 +1521,15 @@
         ],
         "record": "「말라카이의 헌신」",
         "source": "https://www.poewiki.net/wiki/Maligaro"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Maligaro's Cruelty",
+        "heading": "조프리가 바라본 말리가로의 인간성",
+        "body": "조프리 대주교는 이 목걸이의 문구에서 말리가로가 사랑이나 후회보다 실험의 가능성만을 생각한다고 비판한다. 그의 평가는 실험의 피해자가 아니라 동시대에 맞섰던 종교 지도자의 시각이라는 점이 중요하다. 말리가로가 정말 감정을 전혀 갖지 못했는지는 별개로, 조프리가 그를 얼마나 위험한 존재로 판단했는지가 드러난다.",
+        "relation": "타인의 명시적 평가",
+        "source": "https://www.poewiki.net/wiki/Maligaro's_Cruelty"
       }
     ]
   },
@@ -1300,7 +1590,10 @@
     ],
     "items": [
       "Geofri's Baptism",
-      "Geofri's Sanctuary"
+      "Geofri's Sanctuary",
+      "Maligaro's Cruelty",
+      "Geofri's Crest",
+      "Geofri's Legacy"
     ],
     "trivia": [],
     "affiliation": "프레시아 대성당",
@@ -1313,6 +1606,29 @@
           "조프리 대주교는 프레시아의 성당을 맡았고 인근에 세워진 말리가로의 실험실을 강하게 반대했다. 그는 생체 개조를 종교적이고 도덕적인 타락으로 이해했다.",
           "그는 빅타리오 등 마석 연구에 반대하는 세력과 뜻을 같이했으나 결국 살해당했다. 몰락한 성소에서 마주치는 언데드 조프리는 과거 종교인과 연구자의 갈등을 직접 드러내는 존재다."
         ]
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Maligaro's Cruelty",
+        "heading": "대주교가 적대자를 규정한 말",
+        "body": "아이템 이름은 말리가로를 가리키지만, 플레이버 텍스트의 화자는 조프리 대주교다. 그는 말리가로에게 사랑이나 후회가 없고 결과보다 실험 가능성만 보인다고 비판한다. 조프리와 말리가로의 대립을 읽을 때, 실제 당사자의 판단을 확인할 수 있는 흔치 않은 자료다.",
+        "relation": "적대자에 대한 직접 평가",
+        "source": "https://www.poewiki.net/wiki/Maligaro's_Cruelty"
+      },
+      {
+        "item": "Geofri's Crest",
+        "heading": "명예를 지키고 목숨을 잃다",
+        "body": "아이템 문구는 조프리가 명예를 위한 싸움에서는 이겼지만 생존을 위한 싸움에서는 패배했다고 표현한다. 그는 말리가로의 실험을 반대하며 싸웠으나 살해당했다. 신앙과 도덕적 승리가 실제 생존을 보장하지 않았다는 역설이 남는다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Geofri's_Crest"
+      },
+      {
+        "item": "Geofri's Legacy",
+        "heading": "빅타리오가 기린 조프리의 뜻",
+        "body": "이 역사적 고유 아이템에는 빅타리오가 조프리의 빛은 꺼졌어도 남은 불씨가 길을 비출 수 있다고 추모하는 말이 실려 있다. 아이템 이름에는 빅타리오가 없지만 그의 발언이 직접 남아 있다. 말리가로의 연구에 반대하던 종교인과 정화 봉기의 시인이 같은 진영에 있었다는 관계를 드러낸다.",
+        "relation": "빅타리오의 발언 · 과거 고유 아이템",
+        "source": "https://www.poewiki.net/wiki/Geofri's_Legacy"
       }
     ]
   },
@@ -1488,7 +1804,8 @@
     ],
     "items": [
       "Atziri's Promise",
-      "Atziri's Splendour"
+      "Atziri's Splendour",
+      "Vaal Sentencing"
     ],
     "trivia": [],
     "affiliation": "고대 바알 · 왕실",
@@ -1516,6 +1833,22 @@
         ],
         "record": "도서관 · 시오사의 「황금 책자」 두 번째·세 번째 번역"
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Atziri's Promise",
+        "heading": "죽음 앞에 요구한 것은 충성",
+        "body": "앗지리는 이 플라스크의 문구에서 죽음은 이해를 요구하는 것이 아니라 충성을 요구한다고 말한다. 여왕이 희생 의식을 백성에게 어떻게 정당화했는지 알 수 있는 직접적인 발언이다.",
+        "relation": "본인 발언",
+        "source": "https://www.poewiki.net/wiki/Atziri's_Promise"
+      },
+      {
+        "item": "Vaal Sentencing",
+        "heading": "마지막 시대의 법은 피를 원했다",
+        "body": "플레이버 텍스트는 바알의 마지막 시기에 모든 범죄가 사형으로 처벌되었고, 앗지리의 제국이 피를 동력으로 삼았지만 그 피조차 고갈되고 있었다고 설명한다. 이름에 앗지리는 없지만 여왕의 희생 체제를 구체적으로 묘사하는 주얼이다.",
+        "relation": "역사적 체제에 직접 연결",
+        "source": "https://www.poewiki.net/wiki/Vaal_Sentencing"
+      }
     ]
   },
   {
@@ -1539,7 +1872,9 @@
     ],
     "items": [
       "Doryani's Catalyst",
-      "Doryani's Fist"
+      "Doryani's Fist",
+      "Blood of Corruption",
+      "Quecholli"
     ],
     "trivia": [],
     "affiliation": "고대 바알 · 마석 연구",
@@ -1566,7 +1901,30 @@
         "record": "도서관 · 시오사의 「황금 책자」 첫 번째~세 번째 번역"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Doryani's Catalyst",
+        "heading": "영생 아니면 모두의 죽음",
+        "body": "촉매 반응의 결과가 모두의 불멸이거나 모두의 죽음이 될 수 있었으며, 도리아니는 그 위험을 감수할 생각이었다고 기록한다. 바알 문명의 몰락을 단순한 사고보다 지도층이 감수한 위험한 선택의 결과로 읽게 해 주는 핵심 단서다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Doryani's_Catalyst"
+      },
+      {
+        "item": "Blood of Corruption",
+        "heading": "악몽 속에서 들었다고 전한 목소리",
+        "body": "아이템의 화자는 도리아니 자신이다. 그는 꿈속에서 한 목소리가 순수한 것은 썩고 살아 있는 것은 복종할 것이라고 말했다고 전한다. 이는 바알 말기에 타락한 힘과 접촉했다는 증언이지만, 목소리의 정확한 정체까지 아이템에 명시되지는 않는다.",
+        "relation": "본인 발언 · 존재 정체 미확인",
+        "source": "https://www.poewiki.net/wiki/Blood_of_Corruption"
+      },
+      {
+        "item": "Quecholli",
+        "heading": "참상을 발전의 대가로 보는 연구자",
+        "body": "이 무기에는 최상의 번영은 가장 끔찍한 참상에서 자라난다는 도리아니의 발언이 남아 있다. 대규모 희생을 피할 수 없는 연구 비용으로 취급했던 인물의 세계관을 직접 확인할 수 있다.",
+        "relation": "본인 발언",
+        "source": "https://www.poewiki.net/wiki/Quecholli"
+      }
+    ]
   },
   {
     "id": "oversoul",
@@ -1945,7 +2303,10 @@
     ],
     "items": [
       "Victario's Charity",
-      "Victario's Influence"
+      "Victario's Influence",
+      "Tear of Purity",
+      "Victario's Flight",
+      "Geofri's Legacy"
     ],
     "trivia": [],
     "affiliation": "정화 봉기 · 사안 시민군",
@@ -1963,6 +2324,29 @@
         "paragraphs": [
           "흉상은 라이온아이·티투시우스·센타리를 기린 물건이지만 세 이름에는 카루이·마라케스·에조미어의 저항사가 연결된다. 이를 통해 빅타리오의 도둑질은 정치적 저항과 제국의 역사를 동시에 보여준다."
         ]
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Tear of Purity",
+        "heading": "정화가 타락할 수도 있다는 경고",
+        "body": "빅타리오는 순수함의 상징이 얼마나 빨리 타락할 수 있는지, 맑은 물이 피가 되는지 자신이 누구보다 잘 안다고 말한다. 볼의 정화 봉기에 협력했던 시인이 정화라는 대의 자체를 무비판적으로 믿지는 않았다는 사실을 보여준다.",
+        "relation": "본인 발언",
+        "source": "https://www.poewiki.net/wiki/Tear_of_Purity"
+      },
+      {
+        "item": "Victario's Flight",
+        "heading": "봉기 속 생존자의 도주",
+        "body": "플레이버 텍스트는 성문에서 학살이 벌어질 때 빅타리오가 상처를 입은 채 살아서 도망쳤다고 전한다. 혁명가의 이름이 남은 뒤편에는 승리만이 아닌 공포와 생존의 선택이 있었다.",
+        "relation": "인물의 행적 명시",
+        "source": "https://www.poewiki.net/wiki/Victario's_Flight"
+      },
+      {
+        "item": "Geofri's Legacy",
+        "heading": "빅타리오가 평가한 조프리",
+        "body": "이 아이템의 실제 발언자는 빅타리오다. 조프리 대주교가 죽었지만 그가 남긴 신념은 저항에 불씨로 남을 수 있다고 애도한다. 종교 지도자와 시민 시인이 어떻게 정화 봉기로 연결되었는지 보여준다.",
+        "relation": "플레이버 텍스트에 발언자 명시",
+        "source": "https://www.poewiki.net/wiki/Geofri's_Legacy"
       }
     ]
   },
@@ -2111,6 +2495,15 @@
         "source": "https://www.poewiki.net/wiki/Lady_Dialla",
         "context": "말라카이에게서 사랑받지 못했다고 느끼는 상실을 보여준다."
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Dialla's Malefaction",
+        "heading": "권력보다 사랑 때문에 받은 마석",
+        "body": "플레이버 텍스트의 화자는 말라카이가 자신에게 엄청난 힘을 약속했으나, 힘 때문에 수락한 것이 아니라 사랑했기 때문이라고 회고한다. 디알라가 실험에 참여한 동기를 직접 설명하는 말로, 그녀의 긴 생존과 후회를 이해하는 핵심 단서다.",
+        "relation": "인물 자신의 심경",
+        "source": "https://www.poewiki.net/wiki/Dialla's_Malefaction"
+      }
     ]
   },
   {
@@ -2156,7 +2549,8 @@
     "items": [
       "Malachai's Artifice",
       "Malachai's Vision",
-      "Malachai's Loop"
+      "Malachai's Loop",
+      "Malachai's Simula"
     ],
     "trivia": [],
     "affiliation": "영원한 제국 · 마석 연구",
@@ -2209,6 +2603,22 @@
         "source": "https://www.poewiki.net/wiki/Environmental_lore",
         "context": "디알라에게 일부러 배신당한 느낌을 주겠다는 자신의 계획을 기록한 문장."
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Malachai's Vision",
+        "heading": "볼의 투구에서 변하는 말라카이의 시선",
+        "body": "이 투구는 Voll's Vision을 타락시키면 얻을 수 있다. 하나는 의인의 미덕을, 다른 하나는 악인의 권력 추구를 비꼰다. 볼이 마석을 없애려 말라카이에게 힘을 맡겼다가 오히려 제국을 파멸로 이끈 관계를 떠올리게 하는 아이템 설계다. 제작법의 연결을 역사적 변신 사건으로 오해해서는 안 된다.",
+        "relation": "아이템 시스템과 역사적 대조",
+        "source": "https://www.poewiki.net/wiki/Malachai's_Vision"
+      },
+      {
+        "item": "Malachai's Simula",
+        "heading": "영원한 수호자의 첫 번째 동력",
+        "body": "아이템 문구는 최초의 영원한 수호자(Eternal Guardian)를 움직인 것이 말라카이의 영혼 한 조각이었다고 전한다. 마석 기술을 단순한 근육 강화나 마법이 아니라 영혼을 기계·생물에 깃들게 하는 수준까지 연구했음을 보여준다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Malachai's_Simula"
+      }
     ]
   },
   {
@@ -2240,7 +2650,8 @@
     ],
     "items": [
       "Voll's Protector",
-      "Voll's Devotion"
+      "Voll's Devotion",
+      "Voll's Vision"
     ],
     "trivia": [],
     "affiliation": "정화 봉기 · 영원한 제국",
@@ -2269,6 +2680,22 @@
         "record": "「볼의 고백」",
         "source": "https://www.poewiki.net/wiki/Voll"
       }
+    ],
+    "itemLore": [
+      {
+        "item": "Voll's Protector",
+        "heading": "전쟁에서는 영웅, 평화에서는 실패한 지도자",
+        "body": "플레이버 텍스트는 볼을 전시에는 뛰어난 지도자였으나 평화 시대에는 재앙적인 통치자로 평가한다. 치투스에 대한 정화 봉기의 승리가 짐승을 파괴하려는 말라카이와의 거래로 이어진 이유를 이해하게 해 준다.",
+        "relation": "후대의 평가",
+        "source": "https://www.poewiki.net/wiki/Voll's_Protector"
+      },
+      {
+        "item": "Voll's Vision",
+        "heading": "신념을 추구하는 볼과 변질된 이상",
+        "body": "플레이버 텍스트는 의로운 사람이 칭찬을 구하는 길든 강아지처럼 미덕을 추구한다고 비꼰다. 같은 투구를 타락시키면 Malachai's Vision으로 변하는 실제 제작 관계도 존재한다. 두 인물의 관계를 시각화하지만, 해당 변형이 역사 속에서 실제로 벌어진 사건이라는 뜻은 아니다.",
+        "relation": "아이템 시스템의 의도적 대비",
+        "source": "https://www.poewiki.net/wiki/Voll's_Vision"
+      }
     ]
   },
   {
@@ -2295,7 +2722,9 @@
         "군대를 지휘하는 부하"
       ]
     ],
-    "items": [],
+    "items": [
+      "Militant Faith"
+    ],
     "trivia": [],
     "affiliation": "오리아스 · 템플러 교단",
     "personType": "최종 보스 · 템플러",
@@ -2329,7 +2758,16 @@
         "record": "바일렌타의 「정화의 징표」·「치투스 대성당」 대화"
       }
     ],
-    "bioChapters": []
+    "bioChapters": [],
+    "itemLore": [
+      {
+        "item": "Militant Faith",
+        "heading": "템플러의 종교 확장을 기록한 주얼",
+        "body": "Militant Faith의 일부 변형은 고위 템플러 도미누스의 이름으로 새 신도 수천 명을 개종시켰다고 기록한다. 문구는 그들이 가장 충실한 신앙인이라고 자부했지만 확신이 억압으로 바뀌었다고 평가한다. ACT 1의 추방 정책과 ACT 3의 인체 실험을 종교 권력의 확대라는 배경 속에 놓아 준다.",
+        "relation": "고유 주얼의 인명 변형",
+        "source": "https://www.poewiki.net/wiki/Militant_Faith"
+      }
+    ]
   },
   {
     "id": "siosa",
@@ -2398,7 +2836,9 @@
         "연구 협력 제안을 받음"
       ]
     ],
-    "items": [],
+    "items": [
+      "Seven-League Step"
+    ],
     "trivia": [],
     "affiliation": "페란두스 가문 · 학계",
     "personType": "역사 인물 · 학자",
@@ -2417,6 +2857,15 @@
           "황금 책자 네 번째 문서는 바알 시대의 원문이 아니라 훨씬 뒤에 쓰인 말라카이의 편지다. 말라카이는 이시우스의 해독 작업을 높이 평가하며 자신의 연구실에서 일하라고 제안한다. 편지에 등장하는 호위병과 귀중한 인재라는 표현은 호의만으로 보이지 않는다.",
           "시오사는 이 편지를 읽고 친구를 불쌍히 여긴다. 그러나 편지 자체에는 이시우스가 연구실에 들어갔는지, 어떤 최후를 맞았는지가 적혀 있지 않다. 확실한 사실은 바알 문헌이 말라카이의 연구로 흘러 들어갈 통로가 생겼다는 점이다."
         ]
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Seven-League Step",
+        "heading": "이시우스의 고대 유물 수집 기록",
+        "body": "아이템의 플레이버 텍스트는 이시우스 페란두스의 ‘유물 수집 목록 202번’이라는 출처를 밝힌다. 죽음은 따돌릴 수 있어도 살아가는 일을 잊을 수 있다고 경고하는 문구다. 이시우스가 직접 신었던 신발이라는 뜻은 아니다. 그가 고대 물건을 수집하고 평가한 학자였다는 확실한 단서다.",
+        "relation": "유물 수집자의 해설",
+        "source": "https://www.poewiki.net/wiki/Seven-League_Step"
       }
     ]
   },
@@ -2742,7 +3191,8 @@
     ],
     "items": [
       "Doedre's Damning",
-      "Doedre's Scorn"
+      "Doedre's Scorn",
+      "Doedre's Tenure"
     ],
     "trivia": [],
     "affiliation": "영원한 제국 · 마석 연구",
@@ -2778,6 +3228,22 @@
         "attribution": "고유 아이템 「Doedre’s Elixir」 문구",
         "source": "https://www.poewiki.net/wiki/Doedre_Stamatis",
         "context": "힘을 얻기 위해 신체와 생명을 대가로 치르는 도이드리의 연구관을 드러낸다."
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Doedre's Damning",
+        "heading": "잘린 혀가 남긴 검은 공허",
+        "body": "설명에는 도이드리의 입에 혀 대신 소용돌이치는 검은 공허가 자리했다고 적혀 있다. 말리가로에게 혀를 잘라 달라고 요청한 사건이 이후 그녀의 저주 마법과 연결되었음을 보여준다.",
+        "relation": "직접 연결",
+        "source": "https://www.poewiki.net/wiki/Doedre's_Damning"
+      },
+      {
+        "item": "Doedre's Tenure",
+        "heading": "스승보다 악의에서 앞서다",
+        "body": "플레이버 텍스트는 도이드리에게 말리가로의 미적 감각은 없었지만 순수한 악의에서는 스승을 능가했다고 평가한다. 둘의 사제 관계가 단순한 기술 전수만은 아니었음을 말해 주며, 다른 사람이 본 도이드리의 잔혹함을 보여준다.",
+        "relation": "타인의 평가가 담긴 서술",
+        "source": "https://www.poewiki.net/wiki/Doedre's_Tenure"
       }
     ]
   },
@@ -2975,9 +3441,15 @@
       [
         "vilenta",
         "라니를 치료하기 때문에 당장은 보호하지만 적대"
+      ],
+      [
+        "tukohama",
+        "그가 키타바를 벌한 전승을 성유물 보관실에 남김"
       ]
     ],
-    "items": [],
+    "items": [
+      "Utula's Hunger"
+    ],
     "trivia": [
       "카루이 전승 「키타바의 굶주림」의 구술자로 이름이 남아 있다.",
       "감시탑을 지키던 일부 감시자들도 노예 출신이라는 사실을 지적하며 그들을 배신자로 분노한다."
@@ -2999,6 +3471,15 @@
         ],
         "record": "우툴라의 「키타바」·「라니」 대화, 「왕의 연회」, 성유물 보관실의 「키타바의 굶주림」",
         "source": "https://www.poewiki.net/wiki/Utula"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Utula's Hunger",
+        "heading": "키타바 신앙이 바라본 세계의 종말",
+        "body": "아이템은 우툴라의 이름을 달고 있으며, 모든 생명을 키타바가 먹으면 세상이 신의 위장 속에서 끝난다는 내용을 전한다. ACT 5에서 우툴라가 약속한 해방과 종교적 구원이 결국 모든 것을 삼키는 신에 대한 신앙이었다는 사실을 선명하게 드러낸다. 다만 플레이버 텍스트의 문구가 우툴라의 직접 발언이라고 명시되지는 않는다.",
+        "relation": "이름으로 직접 관련 · 화자는 불명",
+        "source": "https://www.poewiki.net/wiki/Utula's_Hunger"
       }
     ]
   },
@@ -3162,7 +3643,9 @@
         "그의 패배 후 신을 품은 템플러"
       ]
     ],
-    "items": [],
+    "items": [
+      "Militant Faith"
+    ],
     "trivia": [],
     "affiliation": "오리아스 · 템플러 교단",
     "personType": "적 · 보스 · 종교 지도자",
@@ -3180,6 +3663,15 @@
         ],
         "record": "「정화를 위한 죽음」, 「이노센스의 승리」, 스테인드글라스 창",
         "source": "https://www.poewiki.net/wiki/High_Templar_Avarius"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Militant Faith",
+        "heading": "아바리우스의 이름으로 새겨진 개종자들",
+        "body": "Militant Faith 주얼은 도미누스뿐 아니라 아바리우스의 이름을 선택적으로 새긴 변형이 존재한다. 수천 명의 개종자를 기록하며 신앙이 억압으로 바뀌었다는 플레이버 텍스트를 갖는다. 키타바가 등장하기 전 오리아스를 지탱한 템플러의 교세와 권력의 성격을 설명하는 단서다.",
+        "relation": "고유 주얼의 인명 변형",
+        "source": "https://www.poewiki.net/wiki/Militant_Faith"
       }
     ]
   },
@@ -3214,7 +3706,9 @@
         "적대하는 신"
       ]
     ],
-    "items": [],
+    "items": [
+      "Eye of Innocence"
+    ],
     "trivia": [
       "「이노센스의 승리」는 아배리우스가 기록한 템플러 중심의 신성 서사다."
     ],
@@ -3242,6 +3736,15 @@
           "이노센스가 다시 독립된 존재로 행동하기 위해서는 숙주 배넌이 중요한 선택을 해야 한다. ACT 5에서 신이 인간의 믿음에 의해 변화할 수 있다는 배넌의 관점은 이 후속 사건을 이해하는 바탕이다."
         ],
         "record": "「죽음과 부활」"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Eye of Innocence",
+        "heading": "선함을 증명하라는 불가능한 요구",
+        "body": "「이노센스의 책」을 인용한 목걸이 설명에서는 신이 선한 사람만 자신의 시선을 받으라고 명령했지만 아무도 눈을 마주치지 않자 정화의 불길을 내렸다고 한다. 이노센스 숭배가 어떻게 죄의 단죄와 두려움을 정당화했는지 확인할 수 있다.",
+        "relation": "경전의 묘사",
+        "source": "https://www.poewiki.net/wiki/Eye_of_Innocence"
       }
     ]
   },
@@ -3278,6 +3781,26 @@
       [
         "kitava",
         "세상의 위협으로 판단한 신"
+      ],
+      [
+        "tukohama",
+        "그의 영혼을 판테온 능력으로 전달"
+      ],
+      [
+        "abberath",
+        "그의 영혼을 거두고 기원을 설명"
+      ],
+      [
+        "ryslatha",
+        "그녀의 상실과 타락을 회고"
+      ],
+      [
+        "tsoagoth",
+        "후계 집착의 역사를 전하고 정수를 거둠"
+      ],
+      [
+        "shavronne",
+        "검은 불씨의 첫 제물로 영혼을 사용"
       ]
     ],
     "items": [
@@ -3302,6 +3825,27 @@
         ],
         "record": "씬의 「이노센스」·「정화의 징표」·「키타바」 대화",
         "source": "https://www.poewiki.net/wiki/Sin"
+      },
+      {
+        "act": 6,
+        "title": "신의 정수와 첫 번째 검은 불씨 재료",
+        "status": "주요 NPC",
+        "paragraphs": [
+          "씬은 키타바를 막으려면 신성의 일부를 빌릴 필요가 있다고 판단한다. 투코하마를 쓰러뜨린 뒤 판테온 능력을 주면서, 인간 몸은 신의 정수를 무제한으로 감당할 수 없다고 경고한다.",
+          "씬은 샤브론·말리가로·도이드리의 세 강력한 영혼을 모아 짐승의 씨앗인 검은 불씨를 다시 일으키려 한다. ACT 6에서는 액시옴으로 돌아온 샤브론의 영혼을 수확하는 첫 단계만 달성한다.",
+          "그는 투코하마가 다른 부족을 정복한 역사와 그 전사들이 리슬라사의 자식을 살해했다는 이야기, 아버라스의 연금술 실험, 토소고스의 후계 집착을 전한다. 오래된 신에 대해 직접 아는 화자이지만 그가 밝히는 동기 판단은 씬의 관점으로 기록한다."
+        ],
+        "record": "씬 「전쟁의 아버지」·「움브라의 정수」·「토소고스」",
+        "source": "https://www.poewiki.net/wiki/Sin"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Sin's Rebirth",
+        "heading": "재 속에서 다시 일어나는 죄의 신",
+        "body": "플레이버 텍스트는 재 속에서 검은 구름처럼 다시 일어난 씬을 묘사한다. 이노센스의 공식 신앙에서 배척되는 씬이 단순히 악의 이름으로만 남지 않았고, 되살아나 인간을 돕는 존재로 등장한다는 점을 짧게 떠올리게 한다.",
+        "relation": "인물의 귀환을 상징",
+        "source": "https://www.poewiki.net/wiki/Sin's_Rebirth"
       }
     ]
   },
@@ -3311,6 +3855,7 @@
     "en": "Kitava",
     "acts": [
       5,
+      6,
       10
     ],
     "group": "존재",
@@ -3362,6 +3907,17 @@
         "source": "https://www.poewiki.net/wiki/Kitava%2C_the_Insatiable"
       },
       {
+        "act": 6,
+        "title": "전쟁의 아버지와 이어지는 오래된 형벌",
+        "status": "다른 인물의 구술에서 언급",
+        "paragraphs": [
+          "카루이 신화에서는 키타바가 잔치의 새를 몰래 먹어 치우자 투코하마가 이빨로 얼굴을 그어 눈을 멀게 한 일이 전해진다. ACT 6에서 그 징벌자 투코하마가 다른 위협의 신으로 나타나는 것은 신들의 권력이 항상 한쪽의 선을 뜻하지 않음을 보여 준다.",
+          "씬은 투코하마의 세력이 자라나는 것을 막으려 하며 키타바를 상대하려는 장기 계획을 계속 추진한다. 실제로 키타바는 ACT 6의 최종 보스가 아니고, 오리아스에 남아 있는 위협이다."
+        ],
+        "record": "ACT 5 「키타바의 굶주림」·ACT 6 씬 「전쟁의 아버지」",
+        "source": "https://www.poewiki.net/wiki/The_Father_of_War"
+      },
+      {
         "act": 10,
         "title": "굶주림이 지속된 도시",
         "status": "후속 액트 관련",
@@ -3369,6 +3925,22 @@
           "오리아스의 주민을 먹어 치우는 키타바의 영향은 ACT 10에서 더욱 심각한 모습으로 이어진다. 그의 추종자들이 만든 도시의 변화는 ACT 5의 왕의 연회가 끝나지 않았다는 사실을 보여 준다."
         ],
         "record": "「허기의 끝」"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Kitava's Feast",
+        "heading": "죽음의 신에게까지 미친 식욕",
+        "body": "플레이버 텍스트에서는 히네코라가 키타바를 거대한 바위에 묶어 두자, 키타바가 탈출하면 히네코라의 영역에 있는 모든 영혼을 먹겠다고 맹세한다. 신들 사이의 갈등까지 키타바의 끝없는 식욕이 확장된다는 카루이 전승이다.",
+        "relation": "신화 일화",
+        "source": "https://www.poewiki.net/wiki/Kitava's_Feast"
+      },
+      {
+        "item": "Kitava's Thirst",
+        "heading": "호수 하나를 삼킨 형제",
+        "body": "타우호아는 물고기를 잡으려 그물을 짜고 투코하마는 불을 피웠으나, 키타바는 물고기와 함께 호수 전체를 한입에 삼켰다는 이야기가 담겨 있다. ACT 5 성유물 보관실에서 읽는 키타바의 식탐 이야기와 같은 인물상을 보여주는 별개의 고유 아이템 단서다.",
+        "relation": "신화 일화",
+        "source": "https://www.poewiki.net/wiki/Kitava's_Thirst"
       }
     ]
   },
@@ -3473,6 +4045,10 @@
       [
         "lani",
         "서로를 긍정적으로 평가하는 사이"
+      ],
+      [
+        "weylam",
+        "할아버지; 같은 ACT에서 직접 재회한 장면은 없음"
       ]
     ],
     "items": [],
@@ -3491,6 +4067,335 @@
         ],
         "record": "「굶주린 신」 마지막 항해",
         "source": "https://www.poewiki.net/wiki/Lilly_Roth"
+      },
+      {
+        "act": 6,
+        "title": "난민선의 선장과 침몰한 도시의 전승",
+        "status": "주요 거점 NPC",
+        "paragraphs": [
+          "릴리는 오리아스의 키타바 재앙을 피해 난민들을 해안으로 데려왔지만, 익사한 난민이 언데드가 되어 다시 위협하자 황혼의 해안을 정리해 달라고 부탁한다. 선장으로서 자신이 구한 사람들을 끝까지 지키겠다는 선택이다.",
+          "그녀는 토소아타가 염수왕의 먹이 창고와 강제 혼례의 무대처럼 운영되었다는 뱃사람 전승도 알려 준다. 토소고스가 사람을 어떻게 대했는지에 관한 씬의 회상을 보강한다.",
+          "웨일럼 로스는 릴리의 할아버지지만 ACT 6에서 둘이 직접 만나 대화하는 장면은 없다. 릴리가 네사의 이후 운명을 실제로 목격했다고 덧붙이지 않는다."
+        ],
+        "record": "「사라진 은총」 릴리 대사·릴리 「토소아타」",
+        "source": "https://www.poewiki.net/wiki/Lilly_Roth"
+      }
+    ]
+  },
+  {
+    "id": "tukohama",
+    "name": "투코하마",
+    "en": "Tukohama",
+    "acts": [
+      5,
+      6
+    ],
+    "group": "신",
+    "era": "고대~현대",
+    "role": "카루이 전쟁의 아버지",
+    "summary": "카루이에게 전쟁의 기술을 가르친 신. 그가 이끈 정복은 다른 부족을 파괴했으며 짐승의 죽음 뒤 갯벌에 요새를 일으켰다.",
+    "history": "카루이에게 전쟁의 기술을 가르친 신. 그가 이끈 정복은 다른 부족을 파괴했으며 짐승의 죽음 뒤 갯벌에 요새를 일으켰다.",
+    "relations": [
+      [
+        "kitava",
+        "키타바의 탐욕을 벌했던 카루이 신"
+      ],
+      [
+        "kaom",
+        "카옴이 제물과 신탁을 바친 신"
+      ],
+      [
+        "ryslatha",
+        "그의 전사들이 리슬라사의 자식을 죽인 원인"
+      ],
+      [
+        "sin",
+        "그를 비판하고 영혼을 수확한 신"
+      ]
+    ],
+    "items": [
+      "Tukohama's Fortress",
+      "Kitava's Thirst"
+    ],
+    "trivia": [],
+    "affiliation": "카루이 판테온 · 카루이 요새",
+    "personType": "신 · 메인 보스",
+    "narrativeRole": "카루이 전쟁의 아버지",
+    "bioChapters": [],
+    "actChronicles": [
+      {
+        "act": 5,
+        "title": "키타바의 배신을 벌했던 신",
+        "status": "문헌 속 등장",
+        "paragraphs": [
+          "오리아스 성유물 보관실의 「키타바의 굶주림」에서 투코하마는 약속을 어기고 음식을 먹어 치운 키타바의 눈을 자신의 이빨로 그어 징벌한다. ACT 6에서는 같은 신이 새로운 위협으로 나타나므로, 그를 오직 선한 징벌자나 오직 전쟁 괴물로만 단정하지 않는다.",
+          "이 내용은 우툴라의 구술로 기록된 카루이 전승이다. 실제 전투 현장을 직접 촬영한 기록이 아니라 신화적 사건을 서술한 문헌임을 밝힌다."
+        ],
+        "record": "ACT 5 성유물 보관실 「키타바의 굶주림 I」",
+        "source": "https://www.poewiki.net/wiki/Karui_Gods"
+      },
+      {
+        "act": 6,
+        "title": "보호신이라는 전승과 전쟁의 대가",
+        "status": "메인 보스",
+        "paragraphs": [
+          "나발리는 투코하마가 카루이에게 무기와 싸우는 지식을 가르쳐 위험한 길을 지켰다고 말한다. 반면 씬은 그가 농부와 어부를 정복 군대로 바꾸고 폭력으로 신이 되었다고 비판한다. 같은 신에게 서로 다른 목소리가 있다는 점을 모두 기록해야 한다.",
+          "ACT 5의 「키타바의 굶주림」에서 투코하마는 거짓말로 잔치의 새를 먹어 치운 키타바의 눈을 이빨로 그어 벌한다. 키타바를 벌했다는 신화는 투코하마 자신의 침략을 정당화하는 증거가 되지는 않는다.",
+          "ACT 6에서 투코하마는 갯벌에 카루이 요새를 세워 길을 막는다. 쓰러뜨린 뒤 씬이 영혼을 수확하며 판테온 능력을 부여한다."
+        ],
+        "record": "「전쟁의 아버지」의 정복의 눈·씬의 「투코하마」·나발리 「카루이의 신들」",
+        "source": "https://www.poewiki.net/wiki/Tukohama%2C_Karui_God_of_War"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Tukohama's Fortress",
+        "heading": "전장에 요새를 가져간 신",
+        "body": "고유 방패의 문구는 투코하마가 요새 안에서는 지지 않는다고 여겨, 전투에 갈 때 요새를 통째로 가져갔다고 전한다. 신의 방어와 정복이 결합된 짧은 일화다. 다만 이 방패에 나온 요새가 ACT 6 갯벌의 요새와 동일한 건축물이라는 직접 증거는 없다.",
+        "relation": "인물이 직접 명시된 신화적 일화",
+        "source": "https://www.poewiki.net/wiki/Tukohama%27s_Fortress"
+      },
+      {
+        "item": "Kitava's Thirst",
+        "heading": "낚시를 위해 불을 지핀 신과 호수를 삼킨 신",
+        "body": "고유 투구 「Kitava’s Thirst」의 문구에서는 타우호아가 그물을 짜고 투코하마가 물고기를 굽기 위해 불을 피웠지만 키타바가 물고기와 호수 전체를 삼킨 일화를 전한다. 아이템 이름에는 투코하마가 없지만 문구 안에는 그의 행동이 직접 나온다. 이는 투코하마가 키타바와 오래된 카루이 신화에 함께 등장한다는 명백한 연결이지, 투코하마가 키타바의 굶주림을 조장했다는 뜻은 아니다.",
+        "relation": "다른 신의 이름이 붙은 아이템에 직접 등장",
+        "source": "https://www.poewiki.net/wiki/Kitava%27s_Thirst"
+      }
+    ]
+  },
+  {
+    "id": "abberath",
+    "name": "아버라스",
+    "en": "Abberath",
+    "acts": [
+      6
+    ],
+    "group": "신",
+    "era": "고대~현대",
+    "role": "갈라진 발굽의 염소 신·영혼을 마시는 자",
+    "summary": "연금술로 생명력을 추출해 마시던 학자 왕. 염소의 영혼을 반복해서 먹고 염소인간과 연결된 공포의 신이 되었다.",
+    "history": "연금술로 생명력을 추출해 마시던 학자 왕. 염소의 영혼을 반복해서 먹고 염소인간과 연결된 공포의 신이 되었다.",
+    "relations": [
+      [
+        "sin",
+        "그의 추락과 계보를 전하는 화자"
+      ],
+      [
+        "bestel",
+        "그가 사람을 제물로 먹는다는 전설을 전하고 죽음을 시로 남김"
+      ]
+    ],
+    "items": [
+      "Abberath's Hooves",
+      "Abberath's Horn"
+    ],
+    "trivia": [],
+    "affiliation": "죄수의 문 · 염소인간의 신앙",
+    "personType": "신 · 서브 보스",
+    "narrativeRole": "갈라진 발굽의 염소 신·영혼을 마시는 자",
+    "bioChapters": [],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "학자 왕에서 염소 신까지",
+        "status": "서브 보스",
+        "paragraphs": [
+          "씬의 회상에서 아버라스는 본래 생명력을 화학적으로 추출할 지식을 가진 연금술사 왕이었다. 처음에는 염소의 영혼을 마셨고, 그 잔혹함이 자기 몸을 염소의 모습으로 바꾸었다. 씬은 인간의 영혼을 탐하게 된 동기를 치료보다는 끝없는 갈증에서 찾는다.",
+          "그가 데려간 부족 공주와 사이에서 태어난 파운이 염소인간 종족의 기원이 되었다고 씬이 설명한다. 이는 직접 실험 기록이 아닌 씬이 전하는 기원담이다.",
+          "베스텔은 아버라스를 제물의 영혼을 먹는 신으로 소개하고, 죽은 뒤에는 익살스러운 시로 그의 최후를 기록한다."
+        ],
+        "record": "씬 「아버라스」·베스텔 「갈라진 자」",
+        "source": "https://www.poewiki.net/wiki/The_Cloven_One"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Abberath's Hooves",
+        "heading": "사람과 땅을 불태우는 즐거움",
+        "body": "고유 장화의 문구에서는 염소왕이 자기가 불태우는 땅의 법과 전쟁에 관심이 없었고, 생명이 재가 되는 모습 자체를 즐겼다고 말한다. 씬이 전하는 생명력 탐닉과 연결되지만 어떤 마을을 실제 불태웠는지까지 이름을 밝히지는 않는다.",
+        "relation": "아이템과 씬의 회상을 교차 확인",
+        "source": "https://www.poewiki.net/wiki/Abberath%27s_Hooves"
+      },
+      {
+        "item": "Abberath's Horn",
+        "heading": "연기와 불꽃을 삼킨다는 전승",
+        "body": "고유 마법봉은 염소왕이 땅을 파멸시키면서 연기를 마시고 불길을 먹었다는 시적인 표현을 남긴다. 파괴를 생존이 아닌 탐닉으로 받아들이는 그의 변화를 보여 준다. 이것이 문자 그대로 불길을 섭취한 실험 절차였다는 근거는 없다.",
+        "relation": "신화적 상징",
+        "source": "https://www.poewiki.net/wiki/Abberath%27s_Horn"
+      }
+    ]
+  },
+  {
+    "id": "ryslatha",
+    "name": "리슬라사",
+    "en": "Ryslatha",
+    "acts": [
+      6
+    ],
+    "group": "신",
+    "era": "고대~현대",
+    "role": "꼭두각시 여사제·상실한 부족의 어머니",
+    "summary": "한때 평화로운 부족을 돌보던 어머니. 투코하마의 군대에 자식들을 잃고 모든 생명을 자기 자식으로 묶으려는 기생의 신이 되었다.",
+    "history": "한때 평화로운 부족을 돌보던 어머니. 투코하마의 군대에 자식들을 잃고 모든 생명을 자기 자식으로 묶으려는 기생의 신이 되었다.",
+    "relations": [
+      [
+        "tukohama",
+        "그의 전사들에게 자식들을 빼앗김"
+      ],
+      [
+        "sin",
+        "그녀의 슬픔이 변질된 과정을 전한 신"
+      ],
+      [
+        "tarkleigh",
+        "기생충 감염의 근원을 찾아달라고 요청한 주민"
+      ]
+    ],
+    "items": [
+      "Ryslatha's Coil"
+    ],
+    "trivia": [],
+    "affiliation": "아즈메리 주변 옛 전승 · 습지대 산란지",
+    "personType": "신 · 서브 보스",
+    "narrativeRole": "꼭두각시 여사제·상실한 부족의 어머니",
+    "bioChapters": [],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "어머니의 슬픔이 지배의 욕망으로 변하다",
+        "status": "서브 보스",
+        "paragraphs": [
+          "씬은 리슬라사가 원래 부족을 사랑과 평화로 성장시킨 존경받는 어머니였다고 회고한다. 그러나 투코하마의 전사들이 부족을 짓밟고 자식들을 죽이자 그녀의 상실감은 세계를 자기 자식으로 채우려는 욕망이 되었다.",
+          "습지대의 산란지에서는 기생충을 이용하여 동물들의 몸과 정신을 침범한다. 타클레이는 처음에 이 현상을 감염병과 둥지의 문제라고 이해했지만 뒤늦게 신의 소행임을 안다.",
+          "씬은 아즈메리 사람들이 그녀의 자손이 세계를 뒤덮을 종말을 두려워했다고 말한다. 이는 신화 속 예언에 대한 회상이지 실제로 종말 직전까지 갔다는 사실 보고는 아니다."
+        ],
+        "record": "씬 「리슬라사」·타클레이 「꼭두각시 여사제」",
+        "source": "https://www.poewiki.net/wiki/The_Puppet_Mistress"
+      }
+    ]
+  },
+  {
+    "id": "tsoagoth",
+    "name": "토소고스 · 염수왕",
+    "en": "Tsoagoth, the Brine King",
+    "acts": [
+      6
+    ],
+    "group": "신",
+    "era": "고대~현대",
+    "role": "염수왕·토소아타의 옛 지배자",
+    "summary": "처음에는 어부 부족의 사랑받는 지도자였으나 후계자를 얻으려는 집착으로 수많은 여성을 강요와 폭력에 몰아넣었다. 네사를 납치해 바다의 신부로 삼았다.",
+    "history": "처음에는 어부 부족의 사랑받는 지도자였으나 후계자를 얻으려는 집착으로 수많은 여성을 강요와 폭력에 몰아넣었다. 네사를 납치해 바다의 신부로 삼았다.",
+    "relations": [
+      [
+        "nessa",
+        "자기 신부로 삼으려 납치하고 변형함"
+      ],
+      [
+        "sin",
+        "그의 옛날과 후계 집착을 기억하는 신"
+      ],
+      [
+        "lilly",
+        "바다 사람들의 토소아타 전승을 전함"
+      ],
+      [
+        "weylam",
+        "저주받은 선장의 배가 그의 암초까지 항해함"
+      ]
+    ],
+    "items": [
+      "The Brine Crown"
+    ],
+    "trivia": [],
+    "affiliation": "토소아타 · 염수왕의 암초",
+    "personType": "신 · ACT 6 최종 보스",
+    "narrativeRole": "염수왕·토소아타의 옛 지배자",
+    "bioChapters": [],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "사랑받던 추장에서 강제로 신부를 찾는 왕까지",
+        "status": "최종 보스",
+        "paragraphs": [
+          "씬은 토소고스가 한때 번영하는 어부 집단의 사랑받는 지도자였다고 기억한다. 그러나 자기 모습을 이어받을 후계자를 향한 집착이 생기자 여성들을 ‘물고기 아내’로 삼고 자식을 낳게 하는 일을 반복했다. 씬은 그가 권력을 다른 혈통에 넘기기보다 사람을 희생시키는 쪽을 택했다고 비판한다.",
+          "릴리는 바다의 도시 토소아타가 사실상 왕의 먹이 창고이자 후계자를 생산하는 장소처럼 운영되었다고 말한다. 이는 바다에서 전해진 도시의 역사이며, 씬의 회상과 일치하는 부분이 있다.",
+          "ACT 6에서 네사를 납치해 강제로 인어와 같은 모습으로 바꾸고 결혼식을 준비한다. 왕을 쓰러뜨려도 네사가 옛 모습으로 초소에 돌아온 기록은 없다."
+        ],
+        "record": "씬 「토소고스」·릴리 「토소아타」·네사의 「염수왕」 대화",
+        "source": "https://www.poewiki.net/wiki/The_Brine_King_%28quest%29"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "The Brine Crown",
+        "heading": "강제로 넓어지는 왕국의 기원",
+        "body": "고유 왕관의 문구는 염수왕의 영토가 무력만이 아니라 오랜 인내에 의해 계속 넓어진다고 노래한다. 씬이 전하는 후계 집착과 릴리의 토소아타 회상을 보강하는 상징이지만, 이 아이템만으로 네사의 이후 행방이나 도시가 침몰한 원인을 확인할 수는 없다.",
+        "relation": "신화적 이미지·구체 사건 증거 아님",
+        "source": "https://www.poewiki.net/wiki/The_Brine_Crown"
+      }
+    ]
+  },
+  {
+    "id": "weylam",
+    "name": "웨일럼 로스",
+    "en": "Weylam Roth",
+    "acts": [
+      6
+    ],
+    "group": "인물",
+    "era": "과거~현대의 언데드",
+    "role": "저주받은 블랙 크레스트의 선장·릴리의 할아버지",
+    "summary": "검은 깃발의 규칙 때문에 죽어서도 배 블랙 크레스트를 이끄는 선장. 염수왕의 암초로 강제 항해한 뒤 위험을 이겨낸 인간에게 호의를 보인다.",
+    "history": "검은 깃발의 규칙 때문에 죽어서도 배 블랙 크레스트를 이끄는 선장. 염수왕의 암초로 강제 항해한 뒤 위험을 이겨낸 인간에게 호의를 보인다.",
+    "relations": [
+      [
+        "lilly",
+        "손녀, 직접적인 재회 장면과는 구분해야 함"
+      ],
+      [
+        "nessa",
+        "그녀가 알려준 깃발로 소환됨"
+      ],
+      [
+        "tsoagoth",
+        "신이 지배하는 암초로 배를 몰아감"
+      ],
+      [
+        "sin",
+        "그가 안내하는 프레시아 여정과 연결됨"
+      ]
+    ],
+    "items": [
+      "Roth's Reach"
+    ],
+    "trivia": [],
+    "affiliation": "로스 해적 가문 · 블랙 크레스트",
+    "personType": "NPC · 선장 · 언데드",
+    "narrativeRole": "저주받은 블랙 크레스트의 선장·릴리의 할아버지",
+    "bioChapters": [],
+    "actChronicles": [
+      {
+        "act": 6,
+        "title": "검은 깃발이 불러낸 저주받은 항해",
+        "status": "주요 NPC",
+        "paragraphs": [
+          "네사는 분노의 암굴에서 웨일럼의 배 블랙 크레스트에 달렸던 「검은 깃발」을 찾아 봉화대의 불에 던지라고 말한다. 깃발에 따른 의무 때문에 웨일럼은 저승에서 불려 나와 항해를 수행한다.",
+          "그는 살아 있지 않은 자신이 바다 위로 끌려 나온 것을 몹시 싫어하고, 소환한 사람을 염수왕의 암초로 데려다준 뒤 저승으로 돌아가고 싶어 한다. 처음에는 결코 자발적인 도움이라고 부를 수 없다.",
+          "그러나 토소고스가 쓰러진 뒤 살아남은 인간을 인정하고 프레시아까지 가는 추가 항해를 스스로 제안한다. 릴리의 할아버지라는 관계는 확인되지만, ACT 6에서 두 선장이 직접 대화하거나 재회한 장면은 없다."
+        ],
+        "record": "「염수왕」의 검은 깃발·봉화대·웨일럼 대사",
+        "source": "https://www.poewiki.net/wiki/The_Brine_King_%28quest%29"
+      }
+    ],
+    "itemLore": [
+      {
+        "item": "Roth's Reach",
+        "heading": "로스 해적 가문에 남은 목소리",
+        "body": "고유 활 「Roth’s Reach」에는 ‘바다에 추방당했지만 전보다 더 자유롭다’는 웨일럼 자신의 말이 실리고, 서명은 그를 ‘블랙 크레스트의 선장 웨일럼 로트투스 로스’라고 밝힌다. 따라서 「검은 깃발」에 등장하는 ‘로트투스’가 웨일럼의 별명임을 아이템끼리 교차 확인할 수 있다. 과거에는 추방조차 자유라고 여긴 그가 ACT 6에서는 깃발의 저주 때문에 강제로 항해한다는 대비가 선명하다. 그렇다고 릴리가 이 활을 사용했거나 웨일럼이 ACT 6에서 이 활을 들고 싸웠다고 주장할 수는 없다.",
+        "relation": "가문 명칭과 웨일럼의 발언",
+        "source": "https://www.poewiki.net/wiki/Roth%27s_Reach"
       }
     ]
   }

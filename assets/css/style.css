@@ -65,3 +65,18 @@ button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visib
 .lore-excerpt{margin:13px 0 18px;border-left:2px solid #ae8b52;padding:6px 0 7px 18px;background:linear-gradient(90deg,#42321e30,transparent)}
 .lore-excerpt blockquote{margin:0 0 6px;font-size:14px;line-height:1.6;color:#edd5a1;font-style:italic}.lore-excerpt figcaption a{font-size:11px;color:#c0ae8b;text-decoration:underline}.lore-excerpt p{margin:9px 0 0;font-size:12px;line-height:1.8;color:#9eb0b4}
 @media(max-width:690px){.person-act-nav{top:67px}.person-act-section{padding:15px}.person-act-tab{padding:8px 11px}}
+
+/* Previous / next quest buttons jump to the story below the event index. */
+#questDetail{scroll-margin-top:86px;min-width:0}
+@media(max-width:690px){#questDetail{scroll-margin-top:69px}}
+/* Verified unique-item lore: meaningful records rather than an exhaustive catalogue. */
+.unique-lore-card{background:linear-gradient(135deg,#2c2b263f,#19252c);border:1px solid #85714d75;border-radius:10px;padding:15px 17px;margin:0 0 11px}
+.unique-lore-top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-bottom:9px}
+.unique-lore-label{font-size:10px;color:#b8a482;border:1px solid #81684370;border-radius:5px;padding:3px 7px}
+.unique-lore-name{color:#edd0a0;text-decoration:none;font-size:13px;font-weight:700}
+.unique-lore-name:hover{text-decoration:underline;text-underline-offset:3px}
+.drawer .unique-lore-card h4{font-size:13px;color:#e5dfd0;margin:3px 0 9px;line-height:1.6}
+.drawer .unique-lore-card p{font-size:12.5px;line-height:1.88;margin:0;color:#cbd4cf;word-break:keep-all}
+.unique-lore-simple .person-tip{margin-top:8px}
+
+.unique-extra-heading{color:#9cadb1;font-size:11px;margin:16px 0 9px}
