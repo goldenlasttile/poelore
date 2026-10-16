@@ -1,0 +1,211 @@
+[
+  {
+    "act": 1,
+    "period": "고대·제국 이전",
+    "title": "바알의 발전과 몰락",
+    "desc": "바알 문명은 마석과 희생 의식의 연구 끝에 붕괴했다. 이 사건의 영향은 바알 유적에 남는다.",
+    "people": [
+      "atziri",
+      "doryani"
+    ],
+    "quest": "a2-vaal"
+  },
+  {
+    "act": 1,
+    "period": "영원한 제국 말기",
+    "title": "라이온아이와 카옴의 전쟁",
+    "desc": "제국 장군 라이온아이는 카루이의 왕 카옴과 하이리가 이끈 전사들에게 패배했다.",
+    "people": [
+      "lioneye",
+      "kaom",
+      "hyrri"
+    ],
+    "quest": "a1-gate"
+  },
+  {
+    "act": 1,
+    "period": "영원한 제국 말기",
+    "title": "샤브론의 브루투스 실험",
+    "desc": "액시옴 수용소를 지키려던 간수장이 실험을 받아들였으나 통제 불능의 괴물이 됐다.",
+    "people": [
+      "shavronne",
+      "brutus"
+    ],
+    "quest": "a1-brute"
+  },
+  {
+    "act": 1,
+    "period": "오랜 과거 이후",
+    "title": "다레소와 머베일의 비극",
+    "desc": "다레소가 준 보석은 머베일을 사이렌으로 바꿨고, 다레소는 그녀를 치료하려 떠났다.",
+    "people": [
+      "merveil",
+      "daresso"
+    ],
+    "quest": "a1-siren"
+  },
+  {
+    "act": 1,
+    "period": "현재",
+    "title": "올플레임 사건",
+    "desc": "페어그레이브즈는 유물을 되찾은 뒤 타인의 생명을 제물로 삼으려 했다.",
+    "people": [
+      "fairgraves"
+    ],
+    "quest": "a1-mariner"
+  },
+  {
+    "act": 2,
+    "period": "고대 바알 시대",
+    "title": "앗지리와 도리아니의 연구",
+    "desc": "영생을 탐한 여왕과 연구자의 의식은 바알의 붕괴와 연관된다.",
+    "people": [
+      "atziri",
+      "doryani"
+    ],
+    "quest": "a2-vaal"
+  },
+  {
+    "act": 2,
+    "period": "영원한 제국 초기",
+    "title": "아즈메리와 제국의 분화",
+    "desc": "아즈메리의 일부는 바알의 폐허 위에 제국을 세웠고, 일부는 산악·숲의 생활을 유지했다.",
+    "people": [
+      "eramir"
+    ],
+    "quest": "a2-vaal"
+  },
+  {
+    "act": 2,
+    "period": "영원한 제국 말기",
+    "title": "말리가로의 실험",
+    "desc": "죄악의 방에서 라울로가 피델리타스로 변했고, 금지된 도구가 숲에 남았다.",
+    "people": [
+      "maligaro",
+      "fidelitas"
+    ],
+    "quest": "a2-black"
+  },
+  {
+    "act": 2,
+    "period": "현재",
+    "title": "바알 봉인의 해제",
+    "desc": "바알 유적에서 풀려난 어둠은 피라미드의 오버소울과 연결된다.",
+    "people": [
+      "yeena",
+      "oversoul"
+    ],
+    "quest": "a2-vaal"
+  },
+  {
+    "act": 3,
+    "period": "영원한 제국 말기",
+    "title": "치투스의 즉위",
+    "desc": "치투스는 이자로의 미궁을 이용해 황위에 오르고 마석 기술을 장려했다.",
+    "people": [
+      "chitus",
+      "izaro"
+    ],
+    "quest": "a3-lab"
+  },
+  {
+    "act": 3,
+    "period": "영원한 제국 말기",
+    "title": "정화 봉기",
+    "desc": "볼·빅타리오와 정복민들이 마석 연구 정책에 반발했다. 치투스는 온다르에게 암살되었다.",
+    "people": [
+      "voll",
+      "victario",
+      "chitus"
+    ],
+    "quest": "a3-victario"
+  },
+  {
+    "act": 3,
+    "period": "영원한 제국 말기",
+    "title": "말라카이의 계획과 대재앙",
+    "desc": "말라카이는 짐승을 파괴하겠다고 약속했지만 그 힘을 차지하려 했고, 제국은 대재앙으로 무너졌다.",
+    "people": [
+      "malachai",
+      "voll",
+      "dialla"
+    ],
+    "quest": "a3-queen"
+  },
+  {
+    "act": 3,
+    "period": "현재",
+    "title": "파이어티의 연구 재개",
+    "desc": "검은 근위대의 지원으로 루나리스 사원에서 인체 개조 실험이 진행된다.",
+    "people": [
+      "piety",
+      "grigor",
+      "gravicius"
+    ],
+    "quest": "a3-pets"
+  },
+  {
+    "act": 3,
+    "period": "현재",
+    "title": "도미누스의 몰락",
+    "desc": "도미누스는 신적인 힘을 얻으려 했지만 타락한 괴물로 변해 쓰러진다.",
+    "people": [
+      "dominus"
+    ],
+    "quest": "a3-sceptre"
+  },
+  {
+    "act": 4,
+    "period": "영원한 제국 말기",
+    "title": "데쉬렛의 봉인",
+    "desc": "붉은 세케마가 짐승을 격리하려 광산을 봉쇄했다. 후손들은 하이게이트를 지켜 왔다.",
+    "people": [
+      "deshret"
+    ],
+    "quest": "a4-seal"
+  },
+  {
+    "act": 4,
+    "period": "대재앙 전후",
+    "title": "카옴의 500인 실종",
+    "desc": "카옴은 거짓 신탁을 따라 내륙으로 들어가 자신의 전사들을 학살했다.",
+    "people": [
+      "kaom",
+      "hyrri"
+    ],
+    "quest": "a4-fury"
+  },
+  {
+    "act": 4,
+    "period": "오랜 과거 이후",
+    "title": "다레소의 실종과 죽음",
+    "desc": "다레소의 정확한 최후는 미상이다. 현재의 투기장은 그를 바탕으로 만들어진 짐승의 악몽이다.",
+    "people": [
+      "daresso",
+      "merveil"
+    ],
+    "quest": "a4-desire"
+  },
+  {
+    "act": 4,
+    "period": "현재",
+    "title": "디알라의 휴거 장치",
+    "desc": "두 눈으로 가동한 장치는 짐승을 죽이지 못했으나 내부로 들어갈 틈을 만든다.",
+    "people": [
+      "dialla",
+      "malachai"
+    ],
+    "quest": "a4-nightmare"
+  },
+  {
+    "act": 4,
+    "period": "현재",
+    "title": "말라카이와 짐승의 죽음",
+    "desc": "말라카이의 계획은 끝났지만, 신성을 잠재우던 존재가 사라지면서 새로운 시대가 시작된다.",
+    "people": [
+      "malachai",
+      "beast"
+    ],
+    "quest": "a4-nightmare"
+  }
+]

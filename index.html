@@ -12,17 +12,17 @@
 <aside class="sidebar" id="sidebar">
   <div class="brand"><div class="sigil">✦</div><div class="brandtext">레이클라스트 아카이브<small>THE EXILE CHRONICLES</small></div></div>
   <nav class="side-section" aria-label="액트 선택"><div class="side-label">ACT ARCHIVES — 기록 선택</div><div id="actnav"></div></nav>
-  <div class="side-bottom"><strong>기록 보관 원칙</strong>인물 → 퀘스트 → 역사 → 서사 정리<br>확정된 사실과 해석을 가능한 한 구분합니다.<br><br><span id="archiveStats"></span></div>
+  <div class="side-bottom"><strong>기록 보관 원칙</strong>배경 → 모든 퀘스트 → 정리<br>확정된 사실과 해석을 가능한 한 구분합니다.<br><br><span id="archiveStats"></span></div>
 </aside>
 <main class="main">
   <header class="topbar"><div class="crumb"><button class="iconbtn mobile-menu" id="menuBtn" aria-label="목차 열기">☰</button><span class="site">PATH OF EXILE I</span><span class="sep">/</span><strong id="topCrumb">ACT I</strong></div><div class="toolbar"><button class="search-trigger" id="searchBtn" title="기록 검색"><span aria-hidden="true">⌕</span><span class="searchtxt">인물 · 퀘스트 · 역사 검색</span><span class="kbd">/</span></button><button class="iconbtn" id="exportBtn" title="현재 기록 JSON 내보내기" aria-label="JSON 내보내기">↓</button></div></header>
-  <div class="content"><section class="hero" id="hero"></section><nav class="tabs" id="tabs" aria-label="기록 종류"></nav><section id="panel"></section><footer class="footnotes">PATH OF EXILE은 Grinding Gear Games의 게임입니다. 이 페이지는 팬 제작 비공식 서사 열람 UI입니다. 스토리와 명칭은 게임 버전에 따라 달라질 수 있습니다. 원문 확인: <a href="https://www.poewiki.net/wiki/Quest" target="_blank" rel="noopener">PoE Wiki 퀘스트 목록 ↗</a> · 기록 데이터는 JSON으로 내보내거나 별도 파일에서 확장할 수 있습니다.</footer></div>
+  <div class="content"><section class="hero" id="hero"></section><nav class="tabs" id="tabs" aria-label="기록 종류"></nav><section id="panel"><div class="loading">ACT 데이터를 불러오는 중입니다…</div></section><footer class="footnotes">PATH OF EXILE은 Grinding Gear Games의 게임입니다. 이 페이지는 팬 제작 비공식 서사 열람 UI입니다. 스토리와 명칭은 게임 버전에 따라 달라질 수 있습니다. 원문 확인: <a href="https://www.poewiki.net/wiki/Quest" target="_blank" rel="noopener">PoE Wiki 퀘스트 목록 ↗</a> · 콘텐츠는 ACT별 JSON 파일로 구성되어 있습니다.</footer></div>
 </main>
 </div>
 <div class="overlay hidden" id="searchOverlay" role="dialog" aria-modal="true" aria-label="통합 검색"><div class="search-modal"><div class="searchline"><span style="font-size:20px;color:var(--gold)">⌕</span><input id="searchInput" placeholder="퀘스트, 인물, 고대 사건을 검색하세요…" autocomplete="off"><button class="xbutton" id="closeSearch" aria-label="검색 닫기">×</button></div><div class="search-results" id="searchResults"></div></div></div>
 <div class="drawer-wrap hidden" id="drawerWrap" role="dialog" aria-modal="true" aria-label="인물 상세"><aside class="drawer"><div class="drawer-head"><span>PERSONAL DOSSIER · 인물 기록</span><button class="xbutton" id="closeDrawer" aria-label="인물 창 닫기">×</button></div><div class="drawer-body" id="drawerBody"></div></aside></div>
 
-<script src="./data/lore-data.js"></script>
+
 <script src="./assets/js/app.js"></script>
 </body>
 </html>
